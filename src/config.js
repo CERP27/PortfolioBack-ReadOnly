@@ -2,6 +2,12 @@ import { config } from "dotenv";
 
 config();
 
+export const corsOptions = {
+  origin: "http://localhost:5173",
+  optionsSuccessStatus: 200,
+  credentials: true,
+};
+
 export const PORT = process.env.PORT || 8080;
 
 export const DB_HOST = process.env.MONGOHOST || "localhost";
