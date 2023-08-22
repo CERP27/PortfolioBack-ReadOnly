@@ -3,7 +3,7 @@ import { config } from "dotenv";
 config();
 
 export const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://myportfolio-19a37.web.app",
   optionsSuccessStatus: 200,
   credentials: true,
 };
